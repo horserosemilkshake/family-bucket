@@ -1,0 +1,26 @@
+CREATE DATABASE `db_example` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+
+use `db_example`;
+
+CREATE TABLE `items` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  `thumbnail_link` varchar(255) DEFAULT NULL,
+  `quantity` int DEFAULT NULL,
+  `price` decimal(5,2) DEFAULT NULL,
+  `rating` int DEFAULT NULL,
+  `description` longtext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+SELECT `items`.`id`,
+    `items`.`name`,
+    `items`.`thumbnail_link`,
+    `items`.`quantity`,
+    `items`.`price`,
+    `items`.`rating`,
+    `items`.`description`
+FROM `db_example`.`items`;
+
+
+
