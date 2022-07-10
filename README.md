@@ -1,3 +1,3 @@
 # family-bucket
 
-React JS + Tailwind CSS + Axios + Springboot + Mysql
+React JS + Tailwind CSS + PostCSS + Axios + Springboot + Mysql
