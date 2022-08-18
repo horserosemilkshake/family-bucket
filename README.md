@@ -8,8 +8,8 @@ React JS + Tailwind CSS + PostCSS + Axios + Springboot (JDK 18) + Mysql
 
 ## Screenshots
 ![螢幕擷取畫面 (34)](https://user-images.githubusercontent.com/61784292/185290086-8454c5ae-612c-46bc-8c6b-162fe7141152.png)
-<p style="text-align: center;">Fig 1. Mainpage</p>
+<div align="center">Fig 1. Mainpage</div>
 ![螢幕擷取畫面 (35)](https://user-images.githubusercontent.com/61784292/185290282-e04d9b53-76f8-419f-8d64-993472628d55.png)
-<p style="text-align: center;">Fig 2. Responsive Design</p>
+<div align="center">Fig 2. Responsive Design</div>
 ![螢幕擷取畫面 (36)](https://user-images.githubusercontent.com/61784292/185290386-2222dca4-77e9-48a9-b1b9-86a0bb2515e3.png)
-<p style="text-align: center;">Fig 3. Purchase Page</p>
+<div align="center">Fig 3. Purchase Page</div>
